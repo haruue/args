@@ -8,7 +8,7 @@ class CSharp
         // see Java.java
         argv[0] = "";
         Array.Copy(args, argv, args.Length);
-        for (int i = 0; i < argv.length; i++)
+        for (int i = 0; i < argv.Length; i++)
             Console.WriteLine("argv[{0}]={1}", i, argv[i]);
     }
 }
